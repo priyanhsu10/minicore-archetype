@@ -8,7 +8,7 @@ import ${package}.exceptions.TestCustomException;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class TodoService implements ITestService {
+public class TodoService implements ITodoService {
     public final static Map<Integer, Model> modelList = new LinkedHashMap<>();
 
     @Override

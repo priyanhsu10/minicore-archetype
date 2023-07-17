@@ -1,3 +1,4 @@
+package ${package};
 import ch.qos.logback.classic.Level;
 import ch.qos.logback.classic.Logger;
 import minicore.host.WebHostBuilder;

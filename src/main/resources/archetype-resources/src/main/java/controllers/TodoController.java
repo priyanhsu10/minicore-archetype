@@ -2,8 +2,6 @@
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
 package ${package}.controllers;
-
-
 import minicore.configuration.IConfiguration;
 import minicore.contracts.ControllerBase;
 import minicore.contracts.annotations.filters.ActionFilter;
@@ -12,22 +10,22 @@ import minicore.contracts.annotations.http.*;
 import minicore.contracts.annotations.modelBinding.FromBody;
 import minicore.contracts.annotations.modelBinding.FromQuery;
 import ${package}.filters.CustomResultFilter;
-import ${package}.filters.TestActionFilter;
+import  ${package}.filters.TestActionFilter;
 import ${package}.filters.TestActionFilter2;
-import ${package}.services.ItodoService;
+import ${package}.services.ITodoService;
 import ${package}.services.Model;
 import ${package}.services.Model2;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
-@Route(path = "/hello")
+@Route(path = "/todo")
 @ActionFilter(filterClass = TestActionFilter2.class)
-public class HelloController  extends ControllerBase {
+public class TodoController  extends ControllerBase {
     private ITodoService todoService;
     private final IConfiguration iConfiguration;
 
-    public HelloController(ITodoService todoService, IConfiguration iConfiguration) {
+    public TodoController(ITodoService todoService, IConfiguration iConfiguration) {
         this.todoService = todoService;
         this.iConfiguration = iConfiguration;
     }
