@@ -4,7 +4,7 @@
 
   <groupId>io.github.priyanhsu10</groupId>
   <artifactId>minicore-archetype</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   <packaging>maven-archetype</packaging>
 
   <name>minicore-archetype</name>
@@ -30,7 +30,7 @@
 
   <description>Minicore is a JVM base cross-platform, high-performance, open-source framework for building modern, cloud-enabled, Internet-connected apps.</description>
 
-  <url>https://github.com/priyanhsu10/minicore/minicore-archetype</url>
+  <url>https://github.com/priyanhsu10/minicore-archetype</url>
 
   <developers>
     <developer>
@@ -49,9 +49,9 @@
   </licenses>
 
   <scm>
-    <connection>scm:git:git://github.com/priyanhsu10/minicore.git/minicore-archetype</connection>
-    <developerConnection>scm:git:ssh://github.com:priyanhsu10/minicore.git/minicore-archetype</developerConnection>
-    <url>https://github.com/priyanhsu10/minicore/minicore-archetype</url>
+    <connection>scm:git:git://github.com/priyanhsu10/minicore-archetype.git</connection>
+    <developerConnection>scm:git:ssh://github.com:priyanhsu10/minicore-archetype.git</developerConnection>
+    <url>https://github.com/priyanhsu10/minicore-archetype</url>
   </scm>
 
   <distributionManagement>
