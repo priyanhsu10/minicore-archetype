@@ -1,17 +1,7 @@
-#set( $symbol_pound = '#' )
-#set( $symbol_dollar = '$' )
-#set( $symbol_escape = '\' )
-package ${package};
-
 import ch.qos.logback.classic.Level;
 import ch.qos.logback.classic.Logger;
-import minicore.configuration.AppConfigurer;
 import minicore.host.WebHostBuilder;
 import org.slf4j.LoggerFactory;
-
-
-import java.util.HashMap;
-import java.util.Map;
 
 public class Program {
     public static void main(String[] args) {
@@ -27,11 +17,9 @@ public class Program {
                 //configure custom properties
                 .ConfigureHost(option -> {
 
-//                       option.addPropertyFile("CustomFile.properties");
                     option.addPropertyFile("custom.properties");
-////                       option.addJsonFile("CustomjsonFile.json");
-                       option.addXmlFile("propertieXML.xml");
-               })
+                    option.addXmlFile("propertieXML.xml");
+                })
                 .useStartup(AppStartup.class)
 
                 .run();

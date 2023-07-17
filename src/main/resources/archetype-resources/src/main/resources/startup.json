@@ -1,3 +1,8 @@
+
+//startup json define the configuration for app like
+//port
+//profile to choose
+//application name
 {
   "port": 8080,
   "profile": "development",
