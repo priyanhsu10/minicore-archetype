@@ -1,4 +1,4 @@
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.github.priyanhsu10/minicore-archetype/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.github.priyanhsu10/minicore-archetype/)
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.priyanhsu10/minicore-archetype.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22io.github.priyanhsu10%22%20AND%20a:%22minicore-archetype%22)
 
 
 # minicore-archetype
